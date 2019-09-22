@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
     <title>satRday</title>
-    <meta charset="utf-8">
-    <meta name="author" content="DATE" />
+    <meta charset="utf-8" />
+    <meta name="author" content="2019" />
     <link rel="stylesheet" href="custom.css" type="text/css" />
     <link rel="stylesheet" href="slides.css" type="text/css" />
   </head>
@@ -12,8 +12,8 @@
 class: center, middle, inverse, title-slide
 
 # <img src= 'img/placeholder.png' width = '40%'></br></br>satRday
-## CITY
-### DATE
+## Cardiff
+### 2019
 
 ---
 
@@ -100,34 +100,34 @@ class: slide
 
 How can you help satRday? 
 
-+ __Sponsoring Venue__ : make your venue available for the event. 
++ __Bronze - General - £100__
+  - Logo displayed on website
+  - Booth (table, chairs, power)
+  - Anouncement on [satRdays twitter](https://twitter.com/satRdays_org)
 
-+ __Sponsoring Lunch__ : finance the lunch break.
++ __Silver - Coffee - £300__
+  - Everything in Bronze +
+  - Branding prominently displayed in the coffee break
+  - Announcement during the coffee break
 
-+ __Sponsoring Coffee Break__ : finance one or two coffee breaks.
++ __Gold - Lunch - £600__ 
+  - Everything in Bronze +
+  - Branding prominently displayed during lunch
+  - Announcement during lunch
 
-+ __Sponsoring Logistic__ : support the general logistics of the event (help on site with the installation and overall organisation of the day).
-
-+ __Sponsoring Communication__ : sponsor the printing of posters, flyers, leaflets, website costs and marketing via social media.
-
-+ __Sponsoring Goodies__ : sponsor the creation of goodies for the event: tshirts, stickers etc.
-
-+ __Sponsoring General Finance__ : you sponsor the event in a more traditional way with a direct financial donation.
++ __Platinum - Keynote - £1000__
+  - Everything in Bronze +
+  - Slide displayed before the keynote
+  - Announcement before the keynote
 
 ---
-class: slide 
+class: slidish
 
-##  Considerations for sponsoring
+## Raffles
 
-Depending on your sponsorship, you will have, in return: 
-
-+ Visibility on satRday's __website__ and __Twitter account__.
-
-+ Your __logo__ on the posters, flyers and programs.
-
-+ Your __logo__ on the opening, break, and closing slides of the conference. 
-
-+ A __stand__, on site, during breaks.
++ Feel free to run a raffle, no matter the sponsorship tier
++ Raffle announcement and prize giving will be at the end of the conference event (~5pm)
++ Please communicate your interest to satrday.cardiff@gmail.com before hand, this will help with scheduling and organisation
 
 ---
 class: slidish 
@@ -163,19 +163,25 @@ class: slidish
 &lt;/br&gt;
 &lt;/br&gt;
 
-&lt;img src="presentation-en_files/figure-html/unnamed-chunk-1-1.png" width="672" /&gt;
+![](presentation-en_files/figure-html/unnamed-chunk-1-1.png)&lt;!-- --&gt;
 
 ]
 
 ---
 classe: slide 
 
-## PLACE YEAR 
+## Cardiff 2019 
 
 ### The Organising team
 
 
-About your organising team...
+- [CaRdiff R User Group](https://www.meetup.com/Cardiff-R-User-Group/)
+  - Community run R user group for all levels founded in 2015 to provide informal training and support
+
+***
+
+- [Forwards](https://forwards.github.io/)
+  - Leading the R community forwards in widening the participation of women and other under-represented groups
 
 ---
 class: slidish
@@ -245,27 +251,71 @@ class: contact
 
 # Contact 
 
-## WHO WHO
+## Cardiff SatRday
 
-### this@that.com
+### satrday.cardiff@gmail.com
 
-### who you gonna call
+Thanks From
+
+Dave, Paul, Heather, Dom, Sefa, Mark, Steph
     </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create();
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });
-(function() {
-  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
   if (!r) return;
   s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
   d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
 })();</script>
 
 <script>
 (function() {
-  var i, text, code, codes = document.getElementsByTagName('code');
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
   for (i = 0; i < codes.length;) {
     code = codes[i];
     if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
@@ -279,14 +329,15 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     i++;
   }
-})();
+};
+slideshow._releaseMath(document);
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);
