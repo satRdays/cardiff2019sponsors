@@ -1,0 +1,62 @@
+---
+output:
+  html_document:
+    theme: NULL
+    highlight: NULL
+    css: bootstrap.min.css
+---
+
+<!-- Stylesheets: I got custom bootstrap from https://getbootstrap.com/docs/3.4/customize/ to remove print media styles (and glyph icons) otherwise icons print as black circles -->
+<style type="text/css">
+@import url("https://cardiff2019.satrdays.org/css/satrday.css");
+</style>
+
+<!-- Fonts -->
+<style type="text/css">
+@import url("//fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("//fonts.googleapis.com/css?family=Kaushan+Script");
+@import url("//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
+@import url("//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700");
+</style>
+
+
+<!-- Add icon library: importing as above doesn't seem to work! -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<center>
+<img src="satRday Logo NoHexBlue.svg" height = "400px" width = "400px"  alt="satRday" style="margin:-10% 0px -12% 0px;">
+
+## 16 November 2019
+## Hadyn Ellis Building, Cardiff
+
+### A conference for users of R
+</br>
+</center>
+
+<div class="row text-center">
+
+<div class="col-md-4">
+<span class="fa-stack fa-4x">
+<i class="fa fa-circle fa-stack-2x text-primary"></i>
+<i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+</span>
+<h4 class="service-heading">Pre-conference hackathon</h4>
+<p class="text-muted">Friday, 1-5pm, Council Chamber, Main Building</p>
+<p class="text-muted">Working on data collected for the Transgender Day of Remembrance</p>
+</div>
+
+<div class="col-md-4">
+<span class="fa-stack fa-4x">
+<i class="fa fa-circle fa-stack-2x text-primary"></i>
+<i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+</span>
+<h4 class="service-heading">Full day of talks</h4>
+<p class="text-muted">Learn from new users and experienced professionals</p>
+</br>
+</div>
+
+<h4>For call for proposals, registration, etc, see</h4>
+
+<h2 class="service-heading" style="color: #2165B6;">cardiff2019.satrdays.org</h2>
+
+</div>
